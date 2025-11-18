@@ -406,15 +406,14 @@ header .box-banner .box-titulo p {
   align-items: flex-start;
   text-align: left;
   border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
 }
 .cards-box5 .card4 .text1 .card-alertas {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1;
+  align-items: center;
 }
-.cards-box5 .card4 .text1 h3 {
+.cards-box5 .card4 .text1 .card-alertas h3 {
   font-size: 20px;
   color: #ad346a;
   font-weight: 700;
@@ -429,6 +428,7 @@ header .box-banner .box-titulo p {
   color: #ad346a;
   text-align: center;
   margin: 0;
+  padding: 10px;
 }
 .cards-box5 .card4 .text1:hover {
   transform: translateY(-8px);
@@ -440,15 +440,14 @@ header .box-banner .box-titulo p {
   align-items: flex-start;
   text-align: left;
   border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
 }
 .cards-box5 .card4 .text2 .card-alertas {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1;
+  align-items: center;
 }
-.cards-box5 .card4 .text2 h3 {
+.cards-box5 .card4 .text2 .card-alertas h3 {
   font-size: 20px;
   color: #2769a3;
   font-weight: 700;
@@ -463,6 +462,7 @@ header .box-banner .box-titulo p {
   color: #2769a3;
   text-align: center;
   margin: 0;
+  padding: 10px;
 }
 .cards-box5 .card4 .text2:hover {
   transform: translateY(-8px);
@@ -474,15 +474,14 @@ header .box-banner .box-titulo p {
   align-items: flex-start;
   text-align: left;
   border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
 }
 .cards-box5 .card4 .text3 .card-alertas {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1;
+  align-items: center;
 }
-.cards-box5 .card4 .text3 h3 {
+.cards-box5 .card4 .text3 .card-alertas h3 {
   font-size: 20px;
   color: #244a2d;
   font-weight: 700;
@@ -497,6 +496,7 @@ header .box-banner .box-titulo p {
   color: #244a2d;
   text-align: center;
   margin: 0;
+  padding: 10px;
 }
 .cards-box5 .card4 .text3:hover {
   transform: translateY(-8px);
@@ -508,15 +508,14 @@ header .box-banner .box-titulo p {
   align-items: flex-start;
   text-align: left;
   border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
 }
 .cards-box5 .card4 .text4 .card-alertas {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1;
+  align-items: center;
 }
-.cards-box5 .card4 .text4 h3 {
+.cards-box5 .card4 .text4 .card-alertas h3 {
   font-size: 20px;
   color: #976c00;
   font-weight: 700;
@@ -531,6 +530,7 @@ header .box-banner .box-titulo p {
   color: #976c00;
   text-align: center;
   margin: 0;
+  padding: 10px;
 }
 .cards-box5 .card4 .text4:hover {
   transform: translateY(-8px);
@@ -616,10 +616,11 @@ header .box-banner .box-titulo p {
   .box-header {
     top: auto;
     left: auto;
-    width: 90%;
+    width: 100%;
     margin-inline: auto;
     margin-top: 20px;
-    padding: 8px 5px;
+    padding: 8px 3px;
+    border-radius: 60px;
     height: 5vh !important;
   }
   .box-header img {
@@ -640,7 +641,7 @@ header .box-banner .box-titulo p {
   .box-banner {
     flex-direction: column;
     display: flex;
-    height: 63vh !important;
+    height: 70vh !important;
     width: 100%;
     align-items: center;
     margin-top: 40px;
@@ -654,14 +655,14 @@ header .box-banner .box-titulo p {
   }
   .box-banner .box-titulo h1 {
     margin-bottom: 0% !important;
-    width: 58% !important;
+    width: 100% !important;
     text-align: center;
-    font-size: 6.7vw !important;
+    font-size: 11.5vw !important;
   }
   .box-banner .box-titulo p {
-    width: 59% !important;
+    width: 68% !important;
     text-align: center;
-    font-size: 4vw !important;
+    font-size: 4.5vw !important;
   }
   .box-banner .box-titulo .Box-Btn {
     flex-direction: row; /* Mantém lado a lado, se houver espaço */
@@ -670,13 +671,13 @@ header .box-banner .box-titulo p {
   }
   .box-banner .box-titulo .Box-Btn .BtnAzul {
     font-size: 0.8rem;
-    width: 95%;
-    height: 40px;
+    width: 70%;
+    height: 50px;
   }
   .box-banner .box-titulo .Box-Btn .BtnBranco {
     font-size: 0.8rem;
-    width: 60%;
-    height: 40px;
+    width: 40%;
+    height: 50px;
   }
   /* ---------------------------------------------------- */
   /* 3. BOX BANNER2 (Importância dos exames) */
@@ -690,16 +691,17 @@ header .box-banner .box-titulo p {
   }
   .box-banner2 .box-titulo2 h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .box-banner2 .box-titulo2 p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     padding: 0 4%;
     width: 100%;
   }
   .cards-box {
     max-width: 90%;
     flex-direction: column;
+    display: flex;
     gap: 15px;
     width: 95%;
     margin-inline: auto;
@@ -768,26 +770,10 @@ header .box-banner .box-titulo p {
     width: 100%;
     height: auto;
   }
-  .cards-box5 .card4 .text1,
-  .cards-box5 .card4 .text2,
-  .cards-box5 .card4 .text3,
-  .cards-box5 .card4 .text4 {
-    width: 100%;
-    flex-direction: row; /* Mantém o ícone ao lado do texto, mas ocupa 100% da largura */
-    padding: 10px;
-  }
-  .cards-box5 .card4 .text1 h3,
-  .cards-box5 .card4 .text2 h3,
-  .cards-box5 .card4 .text3 h3,
-  .cards-box5 .card4 .text4 h3 {
-    border: 2px solid black;
-  }
   p {
     font-size: 0.8rem;
-    padding: 17px 0;
     width: 100% !important;
     text-align: center;
-    border: 2px solid white;
     height: auto;
   }
   /* ---------------------------------------------------- */

@@ -440,63 +440,64 @@ header {
       align-items: flex-start;
       text-align: left;
       border-radius: 15px;
+      padding: 10px;
+      flex-direction: column;
+
       .card-alertas {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-grow: 1;
-      }
-      h3 {
-        font-size: 20px;
-        color: #ad346a;
-        font-weight: 700;
-        margin-bottom: 5px;
-        margin-top: 20px;
-        font-family: "Roboto", sans-serif;
-        text-align: left;
-        margin: 0 0 5px 0;
+        align-items: center;
+        h3 {
+          font-size: 20px;
+          color: #ad346a;
+          font-weight: 700;
+          margin-bottom: 5px;
+          margin-top: 20px;
+          font-family: "Roboto", sans-serif;
+          text-align: left;
+          margin: 0 0 5px 0;
+        }
       }
       p {
         font-size: 15px;
         color: #ad346a;
         text-align: center;
         margin: 0;
+        padding: 10px;
       }
       &:hover {
         transform: translateY(-8px);
         box-shadow: 0 8px 16px rgba(247, 185, 236, 0.938);
       }
     }
-
     .text2 {
       background-color: #cfe2f3;
       display: flex;
       align-items: flex-start;
       text-align: left;
       border-radius: 15px;
+      padding: 10px;
+      flex-direction: column;
+
       .card-alertas {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-grow: 1;
-      }
-      h3 {
-        font-size: 20px;
-        color: #2769a3;
-        font-weight: 700;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-family: "Roboto", sans-serif;
-        text-align: left;
-        margin: 0 0 5px 0;
+        align-items: center;
+        h3 {
+          font-size: 20px;
+          color: #2769a3;
+          font-weight: 700;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          font-family: "Roboto", sans-serif;
+          text-align: left;
+          margin: 0 0 5px 0;
+        }
       }
       p {
         font-size: 15px;
         color: #2769a3;
         text-align: center;
         margin: 0;
+        padding: 10px;
       }
 
       &:hover {
@@ -511,28 +512,28 @@ header {
       align-items: flex-start;
       text-align: left;
       border-radius: 15px;
+      padding: 10px;
+      flex-direction: column;
       .card-alertas {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-grow: 1;
-      }
-      h3 {
-        font-size: 20px;
-        color: #244a2d;
-        font-weight: 700;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-family: "Roboto", sans-serif;
-        text-align: left;
-        margin: 0 0 5px 0;
+        align-items: center;
+        h3 {
+          font-size: 20px;
+          color: #244a2d;
+          font-weight: 700;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          font-family: "Roboto", sans-serif;
+          text-align: left;
+          margin: 0 0 5px 0;
+        }
       }
       p {
         font-size: 15px;
         color: #244a2d;
         text-align: center;
         margin: 0;
+        padding: 10px;
       }
       &:hover {
         transform: translateY(-8px);
@@ -546,28 +547,28 @@ header {
       align-items: flex-start;
       text-align: left;
       border-radius: 15px;
+      padding: 10px;
+      flex-direction: column;
       .card-alertas {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-grow: 1;
-      }
-      h3 {
-        font-size: 20px;
-        color: #976c00;
-        font-weight: 700;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-family: "Roboto", sans-serif;
-        text-align: center;
-        margin: 0 0 5px 0;
+        align-items: center;
+        h3 {
+          font-size: 20px;
+          color: #976c00;
+          font-weight: 700;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          font-family: "Roboto", sans-serif;
+          text-align: center;
+          margin: 0 0 5px 0;
+        }
       }
       p {
         font-size: 15px;
         color: #976c00;
         text-align: center;
         margin: 0;
+        padding: 10px;
       }
       &:hover {
         transform: translateY(-8px);
@@ -661,10 +662,11 @@ header {
   .box-header {
     top: auto;
     left: auto;
-    width: 90%;
+    width: 100%;
     margin-inline: auto;
     margin-top: 20px;
-    padding: 8px 5px;
+    padding: 8px 3px;
+    border-radius: 60px;
     height: 5vh !important;
 
     img {
@@ -689,7 +691,7 @@ header {
   .box-banner {
     flex-direction: column;
     display: flex;
-    height: 63vh !important;
+    height: 70vh !important;
     width: 100%;
     align-items: center;
     margin-top: 40px;
@@ -703,14 +705,14 @@ header {
 
       h1 {
         margin-bottom: 0% !important;
-        width: 58% !important;
+        width: 100% !important;
         text-align: center;
-        font-size: 6.7vw !important;
+        font-size: 11.5vw !important;
       }
       p {
-        width: 59% !important;
+        width: 68% !important;
         text-align: center;
-        font-size: 4vw !important;
+        font-size: 4.5vw !important;
       }
 
       .Box-Btn {
@@ -720,13 +722,13 @@ header {
 
         .BtnAzul {
           font-size: 0.8rem;
-          width: 95%;
-          height: 40px;
+          width: 70%;
+          height: 50px;
         }
         .BtnBranco {
           font-size: 0.8rem;
-          width: 60%;
-          height: 40px;
+          width: 40%;
+          height: 50px;
         }
       }
     }
@@ -745,11 +747,11 @@ header {
 
       h2 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
 
       p {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         padding: 0 4%;
         width: 100%;
       }
@@ -759,6 +761,7 @@ header {
   .cards-box {
     max-width: 90%;
     flex-direction: column;
+    display: flex;
     gap: 15px;
     width: 95%;
     margin-inline: auto;
@@ -835,24 +838,11 @@ header {
     width: 100%;
     height: auto;
   }
-  .cards-box5 .card4 .text1,
-  .cards-box5 .card4 .text2,
-  .cards-box5 .card4 .text3,
-  .cards-box5 .card4 .text4 {
-    width: 100%;
-    flex-direction: row; /* Mantém o ícone ao lado do texto, mas ocupa 100% da largura */
-    padding: 10px;
 
-    h3 {
-      border: 2px solid black;
-    }
-  }
   p {
     font-size: 0.8rem;
-    padding: 17px 0;
     width: 100% !important;
     text-align: center;
-    border: 2px solid white;
     height: auto;
   }
 
