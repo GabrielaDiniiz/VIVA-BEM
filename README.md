@@ -47,4 +47,4 @@ Este projeto representa um marco na minha transição de carreira da advocacia p
 ---
 
 ## 📬 Contacto
-Desenvolvido por **Gabriela Diniz** [![LinkedIn](www.linkedin.com/in/gabriela-diniz-b94098360)
+Desenvolvido por **Gabriela Diniz** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/www.linkedin.com/in/gabriela-diniz-b94098360)
